@@ -3146,8 +3146,8 @@ hash = "6cb97fb59c28b50ac12d7bac2de4a876b73ed2b7058c68e0391f99854c2fcb85"
 metafile = true
 
 [[files]]
-file = "mods/codechickencore_gtnh.pw.toml"
-hash = "65f335302f3cf85136701157a32f50dd64ce3ff93396468dd91900cbf679f79d"
+file = "mods/codechickencore-gtnh.pw.toml"
+hash = "e79e1a28dfa66c06283607db7ee3272b9050257501f43aab132fde30fc5d67c1"
 metafile = true
 
 [[files]]
