@@ -3326,6 +3326,11 @@ hash = "f04b269decb3dcd3c69cda50a43ea3741234f83e67c4005aba16f27052b39aa1"
 metafile = true
 
 [[files]]
+file = "mods/gtnhlib.pw.toml"
+hash = "1bd583cdf83ba8fac4382c82ca2f84ed4ac3a3029873cf8eb088291e9ba459ee"
+metafile = true
+
+[[files]]
 file = "mods/hexwool.pw.toml"
 hash = "d152cd83ebcac134bb594d4261d8a72990f2fde9d8c666320a15966a1bdf9c11"
 metafile = true

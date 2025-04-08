@@ -1,0 +1,15 @@
+name = "GTNHLib"
+filename = "gtnhlib-0.6.18.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.6.18/gtnhlib-0.6.18.jar"
+hash-format = "sha256"
+hash = "8808d2dd25f10e1c1f1f43f78cd4e6ad0aa472f3b75759e64a83bd9bf1cd9e7d"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/GTNHLib"
+tag = "0.6.18"
