@@ -33,11 +33,11 @@ All credit for the modpack goes to [ReikaKalseki](https://github.com/ReikaKalsek
 
 0. Requires between 6144mb and 8192mb of RAM allocated, with an equal amount of spare. If you are using a dedicated server hosting service, don't worry about the spare.
 
-1. Download `unsup-1.0.1.jar` from [Unascribed's git releases](https://git.sleeping.town/unascribed/unsup/releases/tag/v1.0.1), and place it in the root of your server instance.
+1. Download `unsup-1.0.s.jar` from [Unascribed's git releases](https://git.sleeping.town/unascribed/unsup/releases/tag/v1.0.2), and place it in the root of your server instance.
 
-2. Download `unsup.ini` from the [misc-files](https://github.com/Egassy/Dragonrealm-Unofficial/tree/main/misc-files) folder and place it in the root of your server instance.
+2. Download `unsup.ini` from the [misc-files](https://github.com/Egassy/Dragonrealm-Unofficial/tree/main/misc-files) folder and place it in the root of your server instance, then add `no_gui=true` to it on line 3.
 
-3. Add `-javaagent:unsup-1.0.1.jar -DragonAPI_disable_ASM_RIVERGENLAYEREVENT -DragonAPI_enable_ASM_NOOCWORLDRIFT` as Java args
+3. Add `-javaagent:unsup-1.0.2.jar -DragonAPI_disable_ASM_RIVERGENLAYEREVENT -DragonAPI_enable_ASM_NOOCWORLDRIFT` as Java args
 
 4. In `server.properties`, set `level-seed` to `level-seed=6671894640346020928`
 
