@@ -14,7 +14,7 @@ All credit for the modpack goes to [ReikaKalseki](https://github.com/ReikaKalsek
 
 1. Download and install an "Empty export" from Releases. It uses [unsup](https://git.sleeping.town/unascribed/unsup/) to download files, with the files to download being defined in this repo, so it will always be up to date.
 
-2. In the Java arguments/parameters section of the new Minecraft instance, paste `-javaagent:unsup-1.0.1+test1.jar -DragonAPI_disable_ASM_RIVERGENLAYEREVENT -DragonAPI_enable_ASM_NOOCWORLDRIFT`. Not required if using Prism and the Prism release.
+2. In the Java arguments/parameters section of the new Minecraft instance, paste `-javaagent:unsup-1.0.2.jar -DragonAPI_disable_ASM_RIVERGENLAYEREVENT -DragonAPI_enable_ASM_NOOCWORLDRIFT`. Not required if using Prism and the Prism release.
 
 3. Set your desired world radius in `/config/DragonAPI.cfg` on line 64. Default is 25000 radius, so you'll have to go a good distance to find many biomes on that.
 
