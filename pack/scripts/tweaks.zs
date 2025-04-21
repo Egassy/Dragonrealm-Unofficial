@@ -404,8 +404,13 @@ furnace.addRecipe(<chisel:andesite>, <Botania:stone:8>);
 furnace.addRecipe(<chisel:andesite>, <Botania:stone:12>);
 
 recipes.remove(<ThermalExpansion:Frame:1>);
+//thermal expansion frame recipe fix
+recipes.addShaped(<ThermalExpansion:Frame:1>, [[<ore:ingotInvar>, <ore:gearElectrum>, <ore:ingotInvar>], [<ore:ingotHSLA>, <ThermalExpansion:Frame:0>, <ore:ingotHSLA>], [<ore:ingotInvar>, <ore:gemEmerald>, <ore:ingotInvar>]]);
 recipes.remove(<ThermalExpansion:Frame:2>);
+recipes.addShaped(<ThermalExpansion:Frame:2>, [[<RotaryCraft:rotarycraft_block_blastglass>, <ore:gearSignalum>, <RotaryCraft:rotarycraft_block_blastglass>], [<ore:gemSilicon>, <ThermalExpansion:Frame:1>, <ore:gemSilicon>], [<RotaryCraft:rotarycraft_block_blastglass>, <ore:gemEmerald>, <RotaryCraft:rotarycraft_block_blastglass>]]);
 recipes.remove(<ThermalExpansion:Frame:3>);
+recipes.addShaped(<ThermalExpansion:Frame:3>, [[<ore:ingotSilver>, <ore:gearEnderium>, <ore:ingotSilver>], [<ore:gemRuby>, <ThermalExpansion:Frame:2>, <ore:gemRuby>], [<ore:ingotSilver>, <ore:gemEmerald>, <ore:ingotSilver>]]);
+
 
 recipes.remove(<Botania:lightRelay>);
 recipes.addShapeless(<Botania:lightRelay>*2, [<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <Botania:manaResource:9>, <Botania:manaResource:12>]);
