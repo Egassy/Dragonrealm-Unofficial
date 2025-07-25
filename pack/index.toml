@@ -3326,7 +3326,7 @@ metafile = true
 
 [[files]]
 file = "mods/projectblue.pw.toml"
-hash = "5e96d89636dcaaed6f17be5f9287451c2928fe5553e4fff8b97760ae123f54aa"
+hash = "91da162f626898c3f45eef6c95a7c3ca5a40f667854a4d40838325523a9cdc19"
 metafile = true
 
 [[files]]
