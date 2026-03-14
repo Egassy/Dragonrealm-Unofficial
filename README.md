@@ -1,3 +1,7 @@
+# OBSOLETE
+## USE [UNILOCK'S FORK](https://github.com/unilock/dragonrealm-unofficial) INSTEAD
+
+
 # DragonRealm
 
 [ReikaKalseki](https://github.com/ReikaKalseki/)'s DragonRealm modpack, converted into packwiz format for easier install and distribution and modified for modernity.
